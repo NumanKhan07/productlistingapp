@@ -24,7 +24,7 @@ class ProductDetailScreen extends StatelessWidget {
                 child: Image.asset(
                   product.imageUrl,
                   width: double.infinity,
-                  height: 300,  // Height remains static, but you can adjust it
+                  height: 300,
                   fit: BoxFit.contain,  // Use BoxFit.contain to display the whole image
                 ),
               ),
